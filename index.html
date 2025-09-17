@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mdjd</title>
+    <link rel="stylesheet" href="Css/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <section class="menu-bar-container">
+            <div class="menu-icon">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="mdjd-icon">mdjd</div>
+            <div class="question-icon">
+                <i class="far fa-question-circle"></i>
+            </div>
+            <div class="question-box">
+                <div class="header-q-box">
+                    <h2>پشتیبانی آنلاین</h2>
+                    <i class="fa fa-arrow-left-long"></i>
+                </div>
+                <div class="box-container">
+                    <h3>سلام👋👋</h3>
+                    <p>جواب سوال‌هاتون رو می‌تونید در زیر پیدا کنید.</p>
+                    <p>در غیر اینصورت از ما بپرسید، ما همیشه به سوالاتتون جواب می‌دیم.😊</p>
+                    <div class="question-item">
+                        <div>
+                            <span>چگونه میتوانم یک پروفایل ایجاد کنم؟</span>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <p>در وب سایت روی گزینه "ثبت نام" کلیک کنید. میتوانید با استفاده از شماره موبایل ثبت نام خود
+                            را انجام دهید. (کد فعال سازی برایتان پیامک میشود .) بعد از وارد نمودن کد فعالسازی ، ثبت
+                            نام انجام می شود. سپس روی گزینه تکمیل اطلاعات کلیک و اطلاعات خود را تکمیل نمایید.
+                        </p>
+                    </div>
+                    <div class="question-item">
+                        <div>
+                            <span>چطور در mdjd سفارش خود را ثبت کنم ؟</span>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <p>
+                            بعد از ورود به پروفایل ، کالای مدنظر خود را به سبد خرید اضافه کنید ، پس از انتخاب آدرس
+                            میتوانید نوع پرداخت خود را انتخاب کنید.بعد از اتمام ثبت سفارش ، سیستم کد سفارش شما را
+                            نمایش خواهد داد.
+                        </p>
+                    </div>
+                    <div class="question-item">
+                        <div>
+                            <span>کالایی را که در طرح پیشنهاد شگفت انگیز می باشد می توان با تعداد بیش از یک عدد
+                                خریداری
+                                کرد؟</span>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <p>
+                            به دلیل اینکه طرح پیشنهاد شگفت انگیز یک طرح تشویقی خرید است، دیجی‌کالا تعهدی در قبال
+                            تعدادی ندارد و در صورتی که امکان فروش بیشتر از یک عدد وجود داشته باشد،
+                            لازم با مشتری انجام خواهد شد.
+                        </p>
+                    </div>
+                    <h3>جواب سوالتون رو پیدا نکردید؟</h3>
+                    <button type="button" class="redButton" id="openFQBtn">
+                        <span>از پشتیبان بپرس</span>
+                        <i class="fa fa-angle-left"></i>
+                    </button>
+                </div>
+                <div class="form-box-question">
+                    <form name="questionForm">
+                        <label for="fName">نام <span class="star">*</span></label>
+                        <input type="text" name="fName" id="fName" autocomplete="off">
+                        <label for="phoneNumber">شماره موبایل <span class="star">*</span></label>
+                        <input type="tel" name="phoneNumber" id="phoneNumber" autocomplete="off">
+                        <label for="emailAd">ایمیل <span class="star">*</span></label>
+                        <input type="email" name="emailAd" id="emailAd" autocomplete="off">
+                        <label for="questionText">متن سوال <span class="star">*</span></label>
+                        <textarea name="questionText" id="questionText" maxlength="250"></textarea>
+                        <span id="numCharEnter"></span>
+                        <button type="button" class="redButton" id="sendFQBtn">ارسال کن</button>
+                    </form>
+                </div>
+            </div>
+            <div class="on-all"></div>
+            <div class="right-menu">
+                <div class="mdjd-icon">mdjd</div>
+                <div class="list-sec">
+                    <ul>
+                        <li class="item-of-list"><i class='fa fa-bullhorn'></i> جدیدترین ها</li>
+                        <li class="item-of-list"><i class="fa fa-database"></i>پرفروش ترین ها</li>
+                        <li class="item-of-list"><i class="fa fa-gift"></i>تخفیف ها و پیشنهادها</li>
+                        <li class="item-of-list"><i class="fa fa-bolt"></i>شگفت انگیزها</li>
+                        <li class="item-of-list"><i class="fa fa-commenting"></i>سوالی دارید؟</li>
+                        <li class="item-of-list"><i class="fa fa-handshake"></i>در <span>mdjd</span> آموزش دهید!</li>
+                    </ul>
+                </div>
+                <div class="category-sec">
+                    <h2>دسته بندی محصولات</h2>
+                    <ul>
+                        <li class="category-item active" id="own">
+                            <i class="fa fa-user-alt"></i>
+                            پایه اول
+                            <i class="fa fa-angle-down"></i>
+                            <ul class="lessons">
+                                <li class="lesson">ریاضی</li>
+                                <li class="lesson">علوم</li>
+                                <li class="lesson">آموزش قرآن</li>
+                                <li class="lesson">فارسی</li>
+                                <li class="lesson">نگارش فارسی</li>
+                            </ul>
+                        </li>
+                        <li class="category-item active" id="two">
+                            <i class="fa fa-user-ninja"></i>
+                            پایه دوم
+                            <i class="fa fa-angle-down"></i>
+                            <ul class="lessons">
+                                <li class="lesson">ریاضی</li>
+                                <li class="lesson">علوم</li>
+                                <li class="lesson">آموزش قرآن</li>
+                                <li class="lesson">هدیه های آسمان</li>
+                                <li class="lesson">فارسی</li>
+                                <li class="lesson">نگارش فارسی</li>
+                            </ul>
+                        </li>
+                        <li class="category-item active" id="three">
+                            <i class="fa fa-user-astronaut"></i>
+                            پایه سوم
+                            <i class="fa fa-angle-down"></i>
+                            <ul class="lessons">
+                                <li class="lesson">ریاضی</li>
+                                <li class="lesson">علوم</li>
+                                <li class="lesson">آموزش قرآن</li>
+                                <li class="lesson">هدیه های آسمان</li>
+                                <li class="lesson">مطالعات</li>
+                                <li class="lesson">فارسی</li>
+                                <li class="lesson">نگارش فارسی</li>
+                            </ul>
+                        </li>
+                        <li class="category-item active" id="four">
+                            <i class="fa fa-user-tie"></i>
+                            پایه چهارم
+                            <i class="fa fa-angle-down"></i>
+                            <ul class="lessons">
+                                <li class="lesson">ریاضی</li>
+                                <li class="lesson">علوم</li>
+                                <li class="lesson">آموزش قرآن</li>
+                                <li class="lesson">هدیه های آسمان</li>
+                                <li class="lesson">مطالعات</li>
+                                <li class="lesson">فارسی</li>
+                                <li class="lesson">نگارش فارسی</li>
+                            </ul>
+                        </li>
+                        <li class="category-item active" id="five">
+                            <i class="fa fa-user-md"></i>
+                            پایه پنجم
+                            <i class="fa fa-angle-down"></i>
+                            <ul class="lessons">
+                                <li class="lesson">ریاضی</li>
+                                <li class="lesson">علوم</li>
+                                <li class="lesson">آموزش قرآن</li>
+                                <li class="lesson">هدیه های آسمان</li>
+                                <li class="lesson">مطالعات</li>
+                                <li class="lesson">فارسی</li>
+                                <li class="lesson">نگارش فارسی</li>
+                            </ul>
+                        </li>
+                        <li class="category-item active" id="six">
+                            <i class="fa fa-user-graduate"></i>
+                            پایه ششم
+                            <i class="fa fa-angle-down"></i>
+                            <ul class="lessons">
+                                <li class="lesson">ریاضی</li>
+                                <li class="lesson">علوم</li>
+                                <li class="lesson">آموزش قرآن</li>
+                                <li class="lesson">هدیه های آسمان</li>
+                                <li class="lesson">کار و فناوری</li>
+                                <li class="lesson">تفکر و پژوهش</li>
+                                <li class="lesson">مطالعات</li>
+                                <li class="lesson">فارسی</li>
+                                <li class="lesson">نگارش فارسی</li>
+                            </ul>
+                        </li>
+                        <li class="category-item active" id="media">
+                            <i class="fas fa-file-image"></i>
+                            رسانه
+                            <i class="fa fa-angle-down"></i>
+                            <ul class="lessons">
+                                <li class="lesson">ورزشی</li>
+                                <li class="lesson">مذهبی</li>
+                                <li class="lesson">علمی</li>
+                            </ul>
+                        </li>
+                        <li class="category-item active" id="teacherLearn">
+                            <i class="fa fa-book"></i>
+                            آموزش معلمان
+                        </li>
+                        <li class="category-item active" id="game">
+                            <i class="fa fa-gamepad"></i>
+                            بازی و سرگرمی
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="user-bar-container">
+            <div class="onAll2"></div>
+            <div class="onAll3"></div>
+            <div class="mdjd-icon">mdjd</div>
+            <div class="search-box">
+                <input type="search" readonly name="mySearch" id="mySearch" placeholder="جستجو">
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="search-div">
+                <input type="search" name="openSearchInp" id="openSearchInp" placeholder="جستجو">
+                <i class="fa fa-arrow-right-long"></i>
+                <div class="recently-search">
+                    <div class="top-search">
+                        <i class="far fa-clock"></i>
+                        <h3>آخرین جستجوهای شما</h3>
+                        <i class="fa fa-trash-alt"></i>
+                    </div>
+                    <div class="select-items-search">
+                    </div>
+                </div>
+                <div class="popular-search">
+                    <div class="top-search">
+                        <i class="fa fa-fire-alt"></i>
+                        <h3>جستجوهای پرطرفدار</h3>
+                    </div>
+                    <div class="popular-items">
+                        <ul class="last-search-items">
+                            <li class="last-search-item">
+                                <p>خیلی سبز</p>
+                                <i class="fa fa-angle-left"></i>
+                            </li>
+                            <li class="last-search-item">
+                                <p>ششم گاج</p>
+                                <i class="fa fa-angle-left"></i>
+                            </li>
+                            <li class="last-search-item">
+                                <p>گاج</p>
+                                <i class="fa fa-angle-left"></i>
+                            </li>
+                            <li class="last-search-item">
+                                <p>ریاضی چهارم</p>
+                                <i class="fa fa-angle-left"></i>
+                            </li>
+                            <li class="last-search-item">
+                                <p>خیلی سبز</p>
+                                <i class="fa fa-angle-left"></i>
+                            </li>
+                            <li class="last-search-item">
+                                <p>ششم گاج</p>
+                                <i class="fa fa-angle-left"></i>
+                            </li>
+                            <li class="last-search-item">
+                                <p>گاج</p>
+                                <i class="fa fa-angle-left"></i>
+                            </li>
+                            <li class="last-search-item">
+                                <p>ریاضی چهارم</p>
+                                <i class="fa fa-angle-left"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="search-box-pc">
+                <input type="text" id="searchInpPc">
+                <i class="fa fa-search"></i>
+                <div class="last-search">
+                    <div class="header-last-search">
+                        <h1>
+                            <i class="fa fa-clock"></i>
+                            <p>آخرین جستجوهای شما</p>
+                        </h1>
+                        <i class="fa fa-trash-alt"></i>
+                    </div>
+                    <i class="fa fa-angle-right"></i>
+                    <i class="fa fa-angle-left"></i>
+                    <div class="scroll-bg">
+                        <div class="container">
+                            <ul class="last-search-items">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="papular-search2">
+                    <div class="header-papular-search">
+                        <h1>
+                            <i class="fa fa-fire-alt"></i>
+                            <p>جستجوهای پرطرفدار</p>
+                        </h1>
+                    </div>
+                    <i class="fa fa-angle-right"></i>
+                    <i class="fa fa-angle-left"></i>
+                    <div class="scroll-bg">
+                        <div class="container">
+                            <ul class="last-search-items">
+                                <li class="last-search-item">
+                                    <p>خیلی سبز</p>
+                                    <i class="fa fa-angle-left"></i>
+                                </li>
+                                <li class="last-search-item">
+                                    <p>ششم گاج</p>
+                                    <i class="fa fa-angle-left"></i>
+                                </li>
+                                <li class="last-search-item">
+                                    <p>گاج</p>
+                                    <i class="fa fa-angle-left"></i>
+                                </li>
+                                <li class="last-search-item">
+                                    <p>ریاضی چهارم</p>
+                                    <i class="fa fa-angle-left"></i>
+                                </li>
+                                <li class="last-search-item">
+                                    <p>خیلی سبز</p>
+                                    <i class="fa fa-angle-left"></i>
+                                </li>
+                                <li class="last-search-item">
+                                    <p>ششم گاج</p>
+                                    <i class="fa fa-angle-left"></i>
+                                </li>
+                                <li class="last-search-item">
+                                    <p>گاج</p>
+                                    <i class="fa fa-angle-left"></i>
+                                </li>
+                                <li class="last-search-item">
+                                    <p>ریاضی چهارم</p>
+                                    <i class="fa fa-angle-left"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <ul class="ulCat">
+                </ul>
+            </div>
+            <div class="profile-icon">
+                <i class="fa fa-user"></i>
+                <i class="fa fa-sort-down"></i>
+            </div>
+            <div class="profil-box-items">
+                <ul class="menu-profil-items">
+                    <li class="profil-item">
+                        <i class="fa fa-user"></i>
+                        <span>محمدجواد عسگری</span>
+                        <i class="fa fa-angle-left"></i>
+                    </li>
+                    <li class="briefcase-item">
+                        <i class="fa fa-briefcase"></i>
+                        <span class="wallet-text">کیف پول</span>
+                        <span class="count-wallet"><output>12000</output> تومان</span>
+                    </li>
+                    <li class="club-item">
+                        <i class="fa fa-trophy"></i>
+                        <span class="club-text">کلاب</span>
+                        <output class="club-score-num">13</output>
+                        <span class="score-text">امتیاز</span>
+                    </li>
+                    <li class="orders-item">
+                        <i class="far fa-check-square"></i>
+                        <span>سفارش ها</span>
+                    </li>
+                    <li class="opinions-item">
+                        <i class="far fa-heart"></i>
+                        <span>لیست ها</span>
+                    </li>
+                    <li class="opinions-item">
+                        <i class="far fa-comment"></i>
+                        <span>دیدگاه ها</span>
+                    </li>
+                    <li class="exit-item">
+                        <i class="fa fa-sign-out"></i>
+                        <span>خروج از حساب کاربری</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="cart-icon">
+                <div class="just-icon">
+                    <i class="fa fa-shopping-basket fa-flip-horizontal"></i>
+                    <div class="count-cart"></div>
+                </div>
+                <div class="cart-box-items">
+                    <div class="cart-box-info">
+                        <div class="num-count-products">
+                            <output>123</output>
+                            <span>کالا</span>
+                        </div>
+                        <div class="show-cart-text">
+                            <p>مشاهده سبد خرید</p>
+                            <i class="fa fa-angle-left"></i>
+                        </div>
+                    </div>
+                    <div class="products-in-cart">
+                        <ul>
+                        </ul>
+                    </div>
+                    <div class="submit-go-cart">
+                        <div class="final-price">
+                            <span>مبلغ قابل پرداخت</span>
+                            <div class="final-price-text">
+                                <h1>66,000</h1>
+                                <span class="toman-text">تومان</span>
+                            </div>
+                        </div>
+                        <button type="button" class="redButton">ثبت سفارش</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="select-address">
+            <div class="city-section-text">
+                <i class="fa fa-location-dot"></i>
+                <span class="city-name">ارسال به قم، قم</span>
+            </div>
+            <i class="fa fa-angle-left"></i>
+        </section>
+        <div class="city-box">
+            <div class="header-city-box">
+                <h2>انتخاب آدرس</h2>
+                <i class="fa fa-close"></i>
+            </div>
+            <div class="items-city-box">
+                <ul>
+                    <li class="add-item-city">
+                        <i class="far fa-plus-square"></i>
+                        <span>افزودن آدرس</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="addAddressForm">
+            <header>
+                <p>جزییات آدرس</p>
+                <i class="fa fa-close"></i>
+            </header>
+            <main>
+                <div class="PostAdd">
+                    <p>نشانی پستی <span class="redStar">*</span> <span class="error"></span></p>
+                    <textarea name="" id="" cols="30" rows="10" autocomplete="off"></textarea>
+                </div>
+                <div class="cityContainer">
+                    <div class="SelectState">
+                        <p>استان <span class="redStar">*</span></p>
+                        <input type="text" id="1" autocomplete="off">
+                        <i class="fa fa-caret-down"></i>
+                        <ul class="statesUl">
+                        </ul>
+                    </div>
+                    <div class="SelectCity">
+                        <p>شهر <span class="redStar">*</span></p>
+                        <input type="text" id="2" autocomplete="off">
+                        <i class="fa fa-caret-down"></i>
+                        <ul class="cityUl">
+                        </ul>
+                    </div>
+                </div>
+                <div class="selectMahal">
+                    <p>محله <span class="redStar">*</span></p>
+                    <input type="text" id="3" autocomplete="off">
+                    <i class="fa fa-caret-down"></i>
+                    <ul class="mahalUl"></ul>
+                </div>
+                <div class="lastSecAdd">
+                    <div class="PVContainer">
+                        <div class="pelak">
+                            <p>پلاک <span class="redStar">*</span> <span class="error"></span></span></p>
+                            <input type="text" autocomplete="on">
+                        </div>
+                        <div class="vahed">
+                            <p>واحد</p>
+                            <input type="text" autocomplete="on">
+                        </div>
+                    </div>
+                    <div class="codePost">
+                        <p>کدپستی <span class="redStar">*</span> <span class="error"></span></span></p>
+                        <input type="text" autocomplete="on">
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <button type="button" class="redButton">ثبت آدرس</button>
+            </footer>
+        </div>
+        <div class="onAll5"></div>
+        <div class="onAll4"></div>
+        <section class="megaMenu-list-city">
+            <div class="right-list">
+                <div class="megaMenu">
+                    <div class="categoryItemBtn">
+                        <i class="fa fa-bars"></i>
+                        <h3>دسته بندی کالاها</h3>
+                        <div class="box-mega">
+                            <div class="category-items">
+                                <ul>
+                                </ul>
+                            </div>
+                            <div class="details-list">
+                                <div class="topic-item">
+                                    <p class="topic-name">مشاهده همه موارد</p>
+                                    <i class="fa fa-angle-left"></i>
+                                </div>
+                                <ul class="subjects-list">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-list">
+                    <ul>
+                        <li class="item-header-list">جدیدترین ها</li>
+                        <li class="item-header-list">پرفروش ترین ها</li>
+                        <li class="item-header-list">تخفیف ها و پیشنهادها</li>
+                        <li class="item-header-list">شگفت انگیزها</li>
+                        <li class="item-header-list">سوالی دارید؟</li>
+                        <li class="item-header-list">در mdjd بفروشید!</li>
+                    </ul>
+                    <div class="redHover"></div>
+                </div>
+            </div>
+            <div class="left-list">
+                <i class="fa fa-location-dot"></i>
+                <p class="city-name"></p>
+            </div>
+        </section>
+        <section class="slider">
+            <div class="images-slider">
+                <div class="buttons-slide">
+                    <div class="next-slide"><i class="fa fa-angle-right"></i></div>
+                    <div class="prev-slide"><i class="fa fa-angle-left"></i></div>
+                </div>
+                <img />
+                <img />
+                <img />
+                <img />
+                <img />
+                <img />
+            </div>
+            <div class="points-slider"></div>
+            <div class="shadowOnSlider"></div>
+        </section>
+        <svg src="Images/Spesial/iconSeprate.png"></svg>
+    </header>
+    <main>
+        <div class="categoryMain">
+            <div class="container">
+                <div class="item" id="medueIconCat">
+                    <span>رسانه</span>
+                    <img src="Images/catrgoryIcon/mediu.png" alt="">
+                </div>
+                <div class="item" id="pdfIconCat">
+                    <span>فایل های pdf</span>
+                    <img src="Images/catrgoryIcon/pdf.png" alt="">
+                </div>
+                <div class="item" id="missionIconCat">
+                    <span>ماموریت ها</span>
+                    <img src="Images/catrgoryIcon/mission.png" alt="">
+                </div>
+                <div class="item" id="booksIconCat">
+                    <span>کتاب درسی</span>
+                    <img src="Images/catrgoryIcon/books.png" alt="">
+                </div>
+                <div class="item" id="sampleQIconCat">
+                    <span>نمونه سوالات</span>
+                    <img src="Images/catrgoryIcon/question2.png" alt="">
+                </div>
+                <div class="item" id="tizIconCat">
+                    <span>تیزهوشان</span>
+                    <img src="Images/catrgoryIcon/TizHosh.png" alt="">
+                </div>
+                <div class="item" id="tarhdarsIconCat">
+                    <span>طرح درس</span>
+                    <img src="Images/catrgoryIcon/TarhDars.png" alt="">
+                </div>
+                <div class="item" id="gameIconCat">
+                    <span>بازی و سرگرمی</span>
+                    <img src="Images/catrgoryIcon/game.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="shegeftProducts">
+            <ul>
+                <div class="bannerShegeft">
+                    <h2>پیشنهاد شگفـت انـگـیـز</h2>
+                    <img src="Images/box.png" alt="">
+                    <h3><span>مشاهده همه</span><i class="fa fa-angle-left"></i></h3>
+                </div>
+            </ul>
+        </div>
+        <div class="adds">
+            <div class="gridAdds">
+                <div class="add add1">
+                    <img src="/Images/adds/1.jpg" alt="">
+                </div>
+                <div class="add add2">
+                    <img src="/Images/adds/2.jpg" alt="">
+                </div>
+                <div class="add add3">
+                    <img src="/Images/adds/3.jpg" alt="">
+                </div>
+                <div class="add add4">
+                    <img src="/Images/adds/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="newst">
+            <header>
+                <div class="title">
+                    <i class="fa fa-fire-alt"></i>
+                    <h1>جدید ترین کالاها</h1>
+                </div>
+                <div class="showAll">نمایش همه</div>
+            </header>
+            <main>
+                <div class="gridDis">
+                </div>
+            </main>
+        </div>
+        <div class="mdjdClub">
+            <header>
+                <h1>Club</h1>
+                <h3>Mdjd</h3>
+
+            </header>
+            <main>
+                <ul>
+                    <li>
+                        <i class="fas fa-bullseye"></i>
+                        <p>چرخونه شانس</p>
+                        <img src="./Images/Spesial/wheel-spinner.jpg" alt="">
+                    </li>
+                    <li>
+                        <i class="fas fa-clipboard-list"></i>
+                        <p>ماموریت ها</p>
+                        <img src="./Images/Spesial/missions.png" alt="">
+                    </li>
+                    <li>
+                        <i class="fa fa-gift"></i>
+                        <p>جایزه ها</p>
+                        <img src="./Images/Spesial/awards.png" alt="">
+                    </li>
+                </ul>
+            </main>
+        </div>
+        <div class="cellest">
+            <header>
+                <div class="title">
+                    <i class="fas fa-coins"></i>
+                    <h1>پرفروش ترین کالاها</h1>
+                </div>
+                <div class="showAll">نمایش همه</div>
+            </header>
+            <main>
+                <div class="gridDis">
+                </div>
+            </main>
+        </div>
+        <div class="brandest">
+            <header>
+                <i class="fa fa-star"></i>
+                <h1>محبوب ترین برندها</h1>
+            </header>
+            <main>
+                <div class="brandItem">
+                    <img src="./Images/brands/gaj.jpg" alt="">
+                </div>
+                <div class="brandItem">
+                    <img src="./Images/brands/kheiliSabz.png" alt="">
+                </div>
+                <div class="brandItem">
+                    <img src="./Images/brands/galamChi.png" alt="">
+                </div>
+                <div class="brandItem">
+                    <img src="./Images/brands/mehromah.jpg" alt="">
+                </div>
+                <div class="brandItem">
+                    <img src="./Images/brands/nashreOlgo.jpg" alt="">
+                </div>
+                <div class="brandItem">
+                    <img src="./Images/brands/obtakeran.png" alt="">
+                </div>
+                <div class=" brandItem">
+                    <img src="./Images/brands/paigahAP.jpg" alt="">
+                </div>
+            </main>
+        </div>
+        <div class="disOffers">
+            <header>
+                <i class="fa fa-coffee"></i>
+                <h1>منتخب تخفیف ها و پیشنهادها</h1>
+            </header>
+            <main>
+                <div class="itemWithOff">
+                    <div class="pic">
+                        <img src="./Images/Products/books/book_12.jpg" alt="">
+                    </div>
+                    <div class="infoItem">
+                        <div class="offBox">16%</div>
+                        <div class="nameItem">ماجراهای من و درسام جامع خیلی سبز</div>
+                        <div class="price">
+                            <div class="offPrice">
+                                <p>65,000</p>
+                                <span>تومان</span>
+                            </div>
+                            <div class="mainPrice">
+                                <p>79,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemWithOff">
+                    <div class="pic">
+                        <img src="./Images/Products/books/book_12.jpg" alt="">
+                    </div>
+                    <div class="infoItem">
+                        <div class="offBox">16%</div>
+                        <div class="nameItem">ماجراهای من و درسام جامع خیلی سبز</div>
+                        <div class="price">
+                            <div class="offPrice">
+                                <p>65,000</p>
+                                <span>تومان</span>
+                            </div>
+                            <div class="mainPrice">
+                                <p>79,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemWithOff">
+                    <div class="pic">
+                        <img src="./Images/Products/books/book_12.jpg" alt="">
+                    </div>
+                    <div class="infoItem">
+                        <div class="offBox">16%</div>
+                        <div class="nameItem">ماجراهای من و درسام جامع خیلی سبز</div>
+                        <div class="price">
+                            <div class="offPrice">
+                                <p>65,000</p>
+                                <span>تومان</span>
+                            </div>
+                            <div class="mainPrice">
+                                <p>79,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemWithOff">
+                    <div class="pic">
+                        <img src="./Images/Products/books/book_12.jpg" alt="">
+                    </div>
+                    <div class="infoItem">
+                        <div class="offBox">16%</div>
+                        <div class="nameItem">ماجراهای من و درسام جامع خیلی سبز</div>
+                        <div class="price">
+                            <div class="offPrice">
+                                <p>65,000</p>
+                                <span>تومان</span>
+                            </div>
+                            <div class="mainPrice">
+                                <p>79,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemWithOff">
+                    <div class="pic">
+                        <img src="./Images/Products/books/book_12.jpg" alt="">
+                    </div>
+                    <div class="infoItem">
+                        <div class="offBox">16%</div>
+                        <div class="nameItem">ماجراهای من و درسام جامع خیلی سبز</div>
+                        <div class="price">
+                            <div class="offPrice">
+                                <p>65,000</p>
+                                <span>تومان</span>
+                            </div>
+                            <div class="mainPrice">
+                                <p>79,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemWithOff">
+                    <div class="pic">
+                        <img src="./Images/Products/books/book_12.jpg" alt="">
+                    </div>
+                    <div class="infoItem">
+                        <div class="offBox">16%</div>
+                        <div class="nameItem">ماجراهای من و درسام جامع خیلی سبز</div>
+                        <div class="price">
+                            <div class="offPrice">
+                                <p>65,000</p>
+                                <span>تومان</span>
+                            </div>
+                            <div class="mainPrice">
+                                <p>79,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemWithOff">
+                    <div class="pic">
+                        <img src="./Images/Products/books/book_12.jpg" alt="">
+                    </div>
+                    <div class="infoItem">
+                        <div class="offBox">16%</div>
+                        <div class="nameItem">ماجراهای من و درسام جامع خیلی سبز</div>
+                        <div class="price">
+                            <div class="offPrice">
+                                <p>65,000</p>
+                                <span>تومان</span>
+                            </div>
+                            <div class="mainPrice">
+                                <p>79,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemWithOff">
+                    <div class="pic">
+                        <img src="./Images/Products/books/book_12.jpg" alt="">
+                    </div>
+                    <div class="infoItem">
+                        <div class="offBox">16%</div>
+                        <div class="nameItem">ماجراهای من و درسام جامع خیلی سبز</div>
+                        <div class="price">
+                            <div class="offPrice">
+                                <p>65,000</p>
+                                <span>تومان</span>
+                            </div>
+                            <div class="mainPrice">
+                                <p>79,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemWithOff">
+                    <div class="pic">
+                        <img src="./Images/Products/books/book_12.jpg" alt="">
+                    </div>
+                    <div class="infoItem">
+                        <div class="offBox">16%</div>
+                        <div class="nameItem">ماجراهای من و درسام جامع خیلی سبز</div>
+                        <div class="price">
+                            <div class="offPrice">
+                                <p>65,000</p>
+                                <span>تومان</span>
+                            </div>
+                            <div class="mainPrice">
+                                <p>79,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemWithOff">
+                    <div class="pic">
+                        <img src="./Images/Products/books/book_12.jpg" alt="">
+                    </div>
+                    <div class="infoItem">
+                        <div class="offBox">16%</div>
+                        <div class="nameItem">ماجراهای من و درسام جامع خیلی سبز</div>
+                        <div class="price">
+                            <div class="offPrice">
+                                <p>65,000</p>
+                                <span>تومان</span>
+                            </div>
+                            <div class="mainPrice">
+                                <p>79,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemWithOff">
+                    <div class="pic">
+                        <img src="./Images/Products/books/book_12.jpg" alt="">
+                    </div>
+                    <div class="infoItem">
+                        <div class="offBox">16%</div>
+                        <div class="nameItem">ماجراهای من و درسام جامع خیلی سبز</div>
+                        <div class="price">
+                            <div class="offPrice">
+                                <p>65,000</p>
+                                <span>تومان</span>
+                            </div>
+                            <div class="mainPrice">
+                                <p>79,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemWithOff">
+                    <div class="pic">
+                        <img src="./Images/Products/books/book_12.jpg" alt="">
+                    </div>
+                    <div class="infoItem">
+                        <div class="offBox">16%</div>
+                        <div class="nameItem">ماجراهای من و درسام جامع خیلی سبز</div>
+                        <div class="price">
+                            <div class="offPrice">
+                                <p>65,000</p>
+                                <span>تومان</span>
+                            </div>
+                            <div class="mainPrice">
+                                <p>79,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="reading">
+            <header>
+                <i class="fa fa-book-open"></i>
+                <h1>خواندنی ها</h1>
+            </header>
+            <main>
+                <div class="article">
+                    <div class="img">
+                        <img src="./Images/reading/modiriatZaman.jpg" alt="">
+                    </div>
+                    <div class="txt">
+                        <p>برنامه ریزی و مدیریت زمان برای موفقیت در درس و کنکور</p>
+                        <button>ادامه مطلب</button>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="img">
+                        <img src="./Images/reading/raveshMotalee.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <p>معرفی روش های مطالعه</p>
+                        <button>ادامه مطلب</button>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="img">
+                        <img src="./Images/reading/marahelKonkor1402.webp" alt="">
+                    </div>
+                    <div class="txt">
+                        <p>مراحل آماده شدن برای کنکور 1402</p>
+                        <button>ادامه مطلب</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="questionForm">
+            <header>
+                <i class="fa fa-question-circle"></i>
+                <h1>سوالی دارید؟</h1>
+            </header>
+            <main>
+                <form>
+                    <div class="griid">
+                        <div class="grid0">
+                            <div class="grid1">
+                                <div class="grid1_1">
+                                    <label for="nameQIndex">نام و نام خانوادگی</label>
+                                    <input type="text" id="nameQIndex">
+                                </div>
+                                <div class="grid1_2">
+                                    <label for="mobileQIndex">تلفن همراه</label>
+                                    <input type="tel" id="mobileQIndex">
+                                </div>
+                            </div>
+                            <div class="grid2">
+                                <label for="emailQIndex">آدرس ایمیل</label>
+                                <input type="email" id="emailQIndex">
+                            </div>
+                        </div>
+                        <div class="grid3">
+                            <label for="txtAQIndex">متن سوال</label>
+                            <textarea id="txtAQIndex"></textarea>
+                        </div>
+                    </div>
+                    <button type="button" class="off">ارسال سوال</button>
+                </form>
+            </main>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="backToTop">
+                <i class="fa fa-arrow-up"></i>
+            </div>
+            <div class="brandFooter">
+                <h1 class="mdjdIcon">mdjd</h1>
+                <div class="infoCall">
+                    <p class="phoneInfo">تلفن پشتیبانی : 09915545158</p>
+                    <p class="daysInfo">7 روز هفته، ساعت 8 الی 20 پاسخگوی شما هستیم</p>
+                </div>
+            </div>
+            <div class="Propertis">
+                <div class="prop">
+                    <img src="./Images/Spesial/express-delivery.svg" alt="امکان تحویل اکسپرس">
+                    <p>امکان تحویل اکسپرس</p>
+                </div>
+                <div class="prop">
+                    <img src="./Images/Spesial/cash-on-delivery.svg" alt="امکان تحویل اکسپرس">
+                    <p>امکان پرداخت در محل</p>
+                </div>
+                <div class="prop">
+                    <img src="./Images/Spesial/support.svg" alt="امکان تحویل اکسپرس">
+                    <p>7 روز هفته، 24 ساعته</p>
+                </div>
+                <div class="prop">
+                    <img src="./Images/Spesial/days-return.svg" alt="امکان تحویل اکسپرس">
+                    <p>هفت روز ضمانت بازگشت کالا</p>
+                </div>
+                <div class="prop">
+                    <img src="./Images/Spesial/original-products.svg" alt="امکان تحویل اکسپرس">
+                    <p>ضمانت اصل بودن کالا</p>
+                </div>
+            </div>
+            <div class="catSocial">
+                <div class="categoryFooter">
+                    <ul class="withMdjd">
+                        <p>با <span>mdjd</span></p>
+                        <li>اتاق خبر <span>mdjd</span></li>
+                        <li>فروش در <span>mdjd</span></li>
+                        <li>فرصت های شغلی</li>
+                        <li>گزارش تخلف در <span>mdjd</span></li>
+                        <li>تماس با <span>mdjd</span></li>
+                        <li>درباره <span>mdjd</span></li>
+                    </ul>
+                    <ul class="customerServices">
+                        <p>خدمات مشتریان</p>
+                        <li>پاسخ به پرسش های متداول</li>
+                        <li>رویه های بازگرداندن کالا</li>
+                        <li>شرایط استفاده</li>
+                        <li>حریم خصوصی</li>
+                        <li>گزارش باگ</li>
+                    </ul>
+                    <ul class="helpBuy">
+                        <p>راهنمای خرید از <span>mdjd</span></p>
+                        <li>نحوه ثبت سفارش</li>
+                        <li>رویه ارسال سفارش</li>
+                        <li>شیوه های پرداخت</li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <div class="partIcons">
+                        <header>همراه ما باشید!</header>
+                        <div class="iconsSocial">
+                            <div class="itemSocial">
+                                <i class="fab fa-instagram" title="اینستاگرم"></i>
+                            </div>
+                            <div class="itemSocial">
+                                <i class="fab fa-twitter" title="تویتر"></i>
+                            </div>
+                            <div class="itemSocial">
+                                <i class="fab fa-linkedin-in" title="لینکدین"></i>
+                            </div>
+                            <div class="itemSocial">
+                                <i class="fab fa-youtube" title="یوتویوب"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subEmail">
+                        <label for="subEmailFooter">با ثبت ایمیل، از جدیدترین تخفیف ها باخبر شوید</label>
+                        <div class="groupInpBtn">
+                            <input type="email" id="subEmailFooter" placeholder="ایمیل شما">
+                            <button type="button">ثبت</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="national">
+                <div class="rightFooter">
+                    <h3>فروشگاه اینترنتی <span>mdjd</span> ، بررسی، انتخاب و خرید آنلاین</h3>
+                    <p>یک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی متنوع، باکیفیت و دارای قیمت مناسب
+                        را
+                        در مدت زمانی کوتاه به دست مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛ ویژگی‌هایی که
+                        فروشگاه اینترنتی <span>mdjd</span> سال‌هاست بر روی آن‌ها کار کرده و توانسته از این طریق مشتریان
+                        ثابت
+                        خود را
+                        داشته باشد.</p>
+                </div>
+                <div class="leftFooter">
+                    <img src="./Images/Spesial/rezi.png" alt="">
+                    <img src="./Images/Spesial/logo.png" alt="">
+                    <img src="./Images/Spesial/kasbokar.png" alt="">
+                </div>
+            </div>
+            <div class="copyTxt">
+                <p>برای استفاده از مطالب <span>mdjd</span> داشتن «هدف غیرتجاری» و ذکر «منبع» کافیست. تمام حقوق اين
+                    وب‌سايت
+                    نیز برای
+                    شرکت محمدجواد عسگری (فروشگاه آنلاین <span>mdjd</span>) است.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="Js/JsPages/index.js" type="module"></script>
+</body>
+
+</html>

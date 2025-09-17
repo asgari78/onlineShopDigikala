@@ -1,0 +1,22 @@
+.redButton{
+    border: none;
+    border-radius: 10px;
+    background-color: $txtred;
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: $white1;
+    cursor: pointer;
+    &:hover{background-color: $txtredH;}
+}
+
+.inputRadio{
+    border: 2px solid $gray1;
+    border-radius: 50%;
+    background-color: $white1;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 13px;
+    right: -20px;
+}

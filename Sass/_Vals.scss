@@ -1,0 +1,101 @@
+$black1: #000000;
+$black2: #111111;
+$black3: #202020;
+$black4: #303030;
+$onAll: #0000004b;
+$gray1: #505050;
+$gray2: #707070;
+$gray3: #909090;
+$gray4: #b5b5b5;
+$grayOp: #4444447d;
+$white1 : #ffffff;
+$white15 : #f8f8f8;
+$white2 : #ededed;
+$white3 : #dadada;
+$white4 : #c4c4c4;
+$whiteOp : #ffffffad;
+$bgred : #af111f;
+$bgredOp : #b60a189d;
+$txtred : #EE384E;
+$txtredH : #d22f42;
+$redWhite : #f99d9d;
+$link : #19bfd3;
+$linkH : #15a2b1;
+$club1 : #941b80;
+$club2 : #a6358a;
+$shegeftH :#97e254;
+$shegeft : #6bb927;
+$green : #499309;
+$orange : #ea9f15;
+$orangeDark : #995400;
+
+$size-00 : 0.05rem;
+$size-0 : 0.1rem;
+$size-1s : 0.15rem;
+$size-1 : 0.2rem;
+$size-2s : 0.35rem;
+$size-2 : 0.5rem;
+$size-3s : 0.65rem;
+$size-3 : 0.8rem;
+$size-4s : 0.9rem;
+$size-4 : 1rem;
+$size-5s : 1.1rem;
+$size-5 : 1.25rem;
+$size-6 : 1.5rem;
+$size-7 : 1.75rem;
+$size-8 : 2rem;
+$size-9 : 2.5rem;
+$size-10 : 3rem;
+$size-11 : 3.5rem;
+$size-12 : 4rem;
+$size-13 : 5rem;
+$size-14 : 6rem;
+$size-15 : 7rem;
+$size-16: 10rem;
+$size-17s : 12rem;
+$size-17 : 15rem;
+$size-18s : 18.5rem;
+$size-18 : 20rem;
+$size-19s : 25rem;
+$size-19 : 30rem;
+$size-20s : 40rem;
+$size-20 : 50rem;
+$size-21 : 100rem;
+$size-22 : 150rem;
+$size-n : 1000rem;
+
+@font-face {
+    font-family: 'yekan';
+    src: url(../Fonts/W\ yekan\ .ttf);
+}
+@font-face {
+    font-family: 'yekanB';
+    src: url(../Fonts/W\ yekan\ Bold\ .ttf);
+}
+@font-face {
+    font-family: 'snappy';
+    src: url(../Fonts/SnappyServiceNF.otf);
+}
+@mixin text($fs , $color , $fw :0 , $ff : null){
+    font-size: $fs;
+    color: $color;
+    font-weight: $fw;
+    font-family: $ff;
+}
+@mixin general($dis , $pos , $pad , $mgn , $w , $h , $op , $bor , $borr , $bgc){
+    display: $dis;
+    position: $pos;
+    padding: $pad;
+    margin:$mgn;
+    width:  $w;
+    height: $h;
+    opacity: $op;
+    border: $bor;
+    border-radius: $borr;
+    background-color: $bgc;
+}
+@mixin bestCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
