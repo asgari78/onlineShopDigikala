@@ -1,5 +1,4 @@
-const banner = document.querySelector('.slider'),
-    menuBarCon = document.querySelector('section.menu-bar-container'),
+const menuBarCon = document.querySelector('section.menu-bar-container'),
     mdjdIcon = document.querySelector('.mdjd-icon'),
     menuIcon = document.querySelector('.menu-icon'),
     rightMenuDiv = document.querySelector('.right-menu'),

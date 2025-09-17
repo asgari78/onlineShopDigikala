@@ -1,22 +1,9 @@
 import {
-    banner, mdjdIcon, menuIcon, onAll, onAll3,
-    profileIcon, onAll2, AddressDiv, onAll4,
-    closeAddressBtn, imgsSlider,
-    menuBarCon, rightMenuDiv, supportBox, searchDiv, ulProduct
+    banner, mdjdIcon, menuIcon, onAll, onAll3, onAll2, onAll4, imgsSlider,
+    menuBarCon, rightMenuDiv, supportBox, searchDiv,
 } from '../Components/findElements.js';
 import { openRightMenu, closeRightMenu } from '../Components/rightMenu.js';
-import { openSearchBox } from '../Components/searchBox.js';
-import { openProfileBox } from '../Components/profileBox.js';
-import { openCartBox, closeCartBox } from '../Components/cartBox.js';
-import { openAddressBox, closeAddressBox } from '../Components/selectAddress.js';
-import { openSupportBox } from '../Components/supportBox.js';
 import { creatProduct } from '../Components/shegeft.js';
-import { showBottuns, hideBottuns } from '../Components/slider.js';
-import { openRed, closeRed } from '../Components/megaListAd.js';
-import { } from '../Components/shegeft.js';
-import { filtering } from '../Components/newst.js';
-import { filterCell } from '../Components/cellest.js';
-import { toTop } from '../Components/footer.js';
 export { myResize }
 document.addEventListener('DOMContentLoaded', () => {
     creatProduct();
