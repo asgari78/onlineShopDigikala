@@ -52,6 +52,5 @@ function myResize() {
     }
 }
 mdjdIcon.addEventListener('click', () => { location.reload() })
-banner.addEventListener('click', () => { location.assign('mdjd.ir') })
 menuIcon.addEventListener('click', () => { openRightMenu() })
 onAll.addEventListener('click', () => { closeRightMenu() })
