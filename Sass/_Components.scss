@@ -1,4 +1,4 @@
-.redButton{
+.redButton {
     border: none;
     border-radius: 10px;
     background-color: $txtred;
@@ -7,10 +7,13 @@
     font-weight: 600;
     color: $white1;
     cursor: pointer;
-    &:hover{background-color: $txtredH;}
+
+    &:hover {
+        background-color: $txtredH;
+    }
 }
 
-.inputRadio{
+.inputRadio {
     border: 2px solid $gray1;
     border-radius: 50%;
     background-color: $white1;

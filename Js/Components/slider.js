@@ -25,15 +25,15 @@ const imgs = document.querySelectorAll('div.images-slider img');
 function setSize() {
     if (window.innerWidth < 600) {
         for (let i = 0; i < imgs.length; i++) {
-            imgs[i].src = `./Images/slider/index/phone/${i + 1}.png`
+            imgs[i].src = `../../Images/slider/index/phone/${i + 1}.png`
         }
     } else if (window.innerWidth >= 600 && window.innerWidth < 900) {
         for (let i = 0; i < imgs.length; i++) {
-            imgs[i].src = `./Images/slider/index/win/${i + 1}.png`
+            imgs[i].src = `../../Images/slider/index/win/${i + 1}.png`
         }
     } else if (window.innerWidth >= 900) {
         for (let i = 0; i < imgs.length; i++) {
-            imgs[i].src = `./Images/slider/index/expend/${i + 1}.png`
+            imgs[i].src = `../../Images/slider/index/expend/${i + 1}.png`
         }
     }
 }

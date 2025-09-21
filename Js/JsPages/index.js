@@ -1,10 +1,21 @@
+import "../Components/slider.js"
+import "../Components/cartBox.js"
+import "../Components/cellest.js"
+import "../Components/footer.js"
+import "../Components/megaListAd.js"
+import "../Components/newst.js"
+import "../Components/products.js"
+import "../Components/profileBox.js"
+import "../Components/questionIndex.js"
+import "../Components/rightMenu.js"
+import "../Components/searchBox.js"
+
 import {
-    banner, mdjdIcon, menuIcon, onAll, onAll3, onAll2, onAll4, imgsSlider,
+    mdjdIcon, menuIcon, onAll, onAll3, onAll2, onAll4, imgsSlider,
     menuBarCon, rightMenuDiv, supportBox, searchDiv,
 } from '../Components/findElements.js';
 import { openRightMenu, closeRightMenu } from '../Components/rightMenu.js';
 import { creatProduct } from '../Components/shegeft.js';
-export { myResize }
 document.addEventListener('DOMContentLoaded', () => {
     creatProduct();
     myResize();
@@ -25,7 +36,6 @@ function myResize() {
         fullItem.style.width = `${innerWidth}px`;
         fullItem.style.height = `${innerHeight}px`;
     }
-    banner.style.width = `${innerWidth}px`;
     imgsSlider.style.width = `${innerWidth}px`;
     menuBarCon.style.width = `${innerWidth}px`;
     rightMenuDiv.style.height = `${innerHeight}px`;

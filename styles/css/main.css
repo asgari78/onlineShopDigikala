@@ -381,7 +381,8 @@ body > header section.menu-bar-container div.right-menu div.category-sec ul li i
   left: 0.2rem;
   top: 0.05rem;
 }
-body > header section.menu-bar-container div.right-menu div.category-sec ul li i.fa-angle-down, body > header section.menu-bar-container div.right-menu div.category-sec ul li i.fa-angle-up {
+body > header section.menu-bar-container div.right-menu div.category-sec ul li i.fa-angle-down,
+body > header section.menu-bar-container div.right-menu div.category-sec ul li i.fa-angle-up {
   font-size: 1rem;
   position: absolute;
   top: 1.25rem;
@@ -777,11 +778,13 @@ body > header section.user-bar-container > div.search-div > input[type=search] {
   top: 0;
   left: 0px;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search, body > header section.user-bar-container > div.search-div div.popular-search {
+body > header section.user-bar-container > div.search-div > div.recently-search,
+body > header section.user-bar-container > div.search-div div.popular-search {
   width: 100%;
   padding: 1.5rem 1rem;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search div.top-search, body > header section.user-bar-container > div.search-div div.popular-search div.top-search {
+body > header section.user-bar-container > div.search-div > div.recently-search div.top-search,
+body > header section.user-bar-container > div.search-div div.popular-search div.top-search {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -796,23 +799,29 @@ body > header section.user-bar-container > div.search-div > div.recently-search 
           justify-content: space-between;
   width: 100%;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search div.top-search h3, body > header section.user-bar-container > div.search-div div.popular-search div.top-search h3 {
+body > header section.user-bar-container > div.search-div > div.recently-search div.top-search h3,
+body > header section.user-bar-container > div.search-div div.popular-search div.top-search h3 {
   font-size: 1.1rem;
   color: #505050;
   font-weight: 0;
   margin-left: auto;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search div.top-search i, body > header section.user-bar-container > div.search-div div.popular-search div.top-search i {
+body > header section.user-bar-container > div.search-div > div.recently-search div.top-search i,
+body > header section.user-bar-container > div.search-div div.popular-search div.top-search i {
   font-size: 1.25rem;
   color: #b5b5b5;
   font-weight: 0;
   margin-left: 0.8rem;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search div.top-search i.fa-trash-alt:hover, body > header section.user-bar-container > div.search-div div.popular-search div.top-search i.fa-trash-alt:hover {
+body > header section.user-bar-container > div.search-div > div.recently-search div.top-search i.fa-trash-alt:hover,
+body > header section.user-bar-container > div.search-div div.popular-search div.top-search i.fa-trash-alt:hover {
   cursor: pointer;
   color: #909090;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search, body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items, body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search, body > header section.user-bar-container > div.search-div div.popular-search div.popular-items {
+body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search,
+body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items,
+body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search,
+body > header section.user-bar-container > div.search-div div.popular-search div.popular-items {
   margin: 0.5rem 1.25rem;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -829,7 +838,10 @@ body > header section.user-bar-container > div.search-div > div.recently-search 
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > li, body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > li, body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > li, body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > li {
+body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > li,
+body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > li,
+body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > li,
+body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -851,19 +863,31 @@ body > header section.user-bar-container > div.search-div > div.recently-search 
   border: 0.05rem solid #b5b5b5;
   border-radius: 1.25rem;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > li p, body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > li p, body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > li p, body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > li p {
+body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > li p,
+body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > li p,
+body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > li p,
+body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > li p {
   max-width: -webkit-min-content;
   max-width: -moz-min-content;
   max-width: min-content;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > li:hover, body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > li:hover, body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > li:hover, body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > li:hover {
+body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > li:hover,
+body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > li:hover,
+body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > li:hover,
+body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > li:hover {
   background-color: #ededed;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > li i, body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > li i, body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > li i, body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > li i {
+body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > li i,
+body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > li i,
+body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > li i,
+body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > li i {
   margin-right: 0.35rem;
   font-size: 0.9rem;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > ul.last-search-items, body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > ul.last-search-items, body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > ul.last-search-items, body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > ul.last-search-items {
+body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > ul.last-search-items,
+body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > ul.last-search-items,
+body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > ul.last-search-items,
+body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > ul.last-search-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -874,7 +898,10 @@ body > header section.user-bar-container > div.search-div > div.recently-search 
       -ms-flex-align: center;
           align-items: center;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > ul.last-search-items li, body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > ul.last-search-items li, body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > ul.last-search-items li, body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > ul.last-search-items li {
+body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > ul.last-search-items li,
+body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > ul.last-search-items li,
+body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > ul.last-search-items li,
+body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > ul.last-search-items li {
   padding: 0.9rem 0.5rem;
   margin: 0.5rem 0.2rem;
   width: -webkit-max-content;
@@ -894,7 +921,10 @@ body > header section.user-bar-container > div.search-div > div.recently-search 
           align-items: center;
   cursor: pointer;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > ul.last-search-items li p, body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > ul.last-search-items li p, body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > ul.last-search-items li p, body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > ul.last-search-items li p {
+body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > ul.last-search-items li p,
+body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > ul.last-search-items li p,
+body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > ul.last-search-items li p,
+body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > ul.last-search-items li p {
   font-size: 1rem;
   color: #505050;
   font-weight: 0;
@@ -902,10 +932,16 @@ body > header section.user-bar-container > div.search-div > div.recently-search 
   width: -moz-max-content;
   width: max-content;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > ul.last-search-items li:hover, body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > ul.last-search-items li:hover, body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > ul.last-search-items li:hover, body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > ul.last-search-items li:hover {
+body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > ul.last-search-items li:hover,
+body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > ul.last-search-items li:hover,
+body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > ul.last-search-items li:hover,
+body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > ul.last-search-items li:hover {
   background-color: #ededed;
 }
-body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > ul.last-search-items li i, body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > ul.last-search-items li i, body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > ul.last-search-items li i, body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > ul.last-search-items li i {
+body > header section.user-bar-container > div.search-div > div.recently-search div.select-items-search > ul.last-search-items li i,
+body > header section.user-bar-container > div.search-div > div.recently-search div.popular-items > ul.last-search-items li i,
+body > header section.user-bar-container > div.search-div div.popular-search div.select-items-search > ul.last-search-items li i,
+body > header section.user-bar-container > div.search-div div.popular-search div.popular-items > ul.last-search-items li i {
   margin-right: 0.35rem;
   font-size: 0.9rem;
 }
@@ -978,7 +1014,8 @@ body > header section.user-bar-container > div.search-box-pc > i {
   font-size: 1.1rem;
   color: #909090;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search, body > header section.user-bar-container > div.search-box-pc div.papular-search2 {
+body > header section.user-bar-container > div.search-box-pc div.last-search,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -995,7 +1032,8 @@ body > header section.user-bar-container > div.search-box-pc div.last-search, bo
   top: 1.25rem;
   margin-bottom: 1.25rem;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search > i, body > header section.user-bar-container > div.search-box-pc div.papular-search2 > i {
+body > header section.user-bar-container > div.search-box-pc div.last-search > i,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 > i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1014,23 +1052,30 @@ body > header section.user-bar-container > div.search-box-pc div.last-search > i
   z-index: 2;
   cursor: pointer;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search > i.fa-angle-right, body > header section.user-bar-container > div.search-box-pc div.papular-search2 > i.fa-angle-right {
+body > header section.user-bar-container > div.search-box-pc div.last-search > i.fa-angle-right,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 > i.fa-angle-right {
   right: 0.65rem;
   border: 0.05rem solid #f99d9d;
   color: #EE384E;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search > i.fa-angle-right:hover, body > header section.user-bar-container > div.search-box-pc div.papular-search2 > i.fa-angle-right:hover {
+body > header section.user-bar-container > div.search-box-pc div.last-search > i.fa-angle-right:hover,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 > i.fa-angle-right:hover {
   background-color: #f99d9d;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search > i.fa-angle-left, body > header section.user-bar-container > div.search-box-pc div.papular-search2 > i.fa-angle-left {
+body > header section.user-bar-container > div.search-box-pc div.last-search > i.fa-angle-left,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 > i.fa-angle-left {
   left: 0.65rem;
   border: 0.05rem solid #97e254;
   color: #499309;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search > i.fa-angle-left:hover, body > header section.user-bar-container > div.search-box-pc div.papular-search2 > i.fa-angle-left:hover {
+body > header section.user-bar-container > div.search-box-pc div.last-search > i.fa-angle-left:hover,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 > i.fa-angle-left:hover {
   background-color: #97e254;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search div.header-last-search, body > header section.user-bar-container > div.search-box-pc div.last-search div.header-papular-search, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-last-search, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-papular-search {
+body > header section.user-bar-container > div.search-box-pc div.last-search div.header-last-search,
+body > header section.user-bar-container > div.search-box-pc div.last-search div.header-papular-search,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-last-search,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-papular-search {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1045,7 +1090,10 @@ body > header section.user-bar-container > div.search-box-pc div.last-search div
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search div.header-last-search h1, body > header section.user-bar-container > div.search-box-pc div.last-search div.header-papular-search h1, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-last-search h1, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-papular-search h1 {
+body > header section.user-bar-container > div.search-box-pc div.last-search div.header-last-search h1,
+body > header section.user-bar-container > div.search-box-pc div.last-search div.header-papular-search h1,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-last-search h1,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-papular-search h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1060,21 +1108,31 @@ body > header section.user-bar-container > div.search-box-pc div.last-search div
   color: #303030;
   font-weight: 0;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search div.header-last-search h1 i, body > header section.user-bar-container > div.search-box-pc div.last-search div.header-papular-search h1 i, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-last-search h1 i, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-papular-search h1 i {
+body > header section.user-bar-container > div.search-box-pc div.last-search div.header-last-search h1 i,
+body > header section.user-bar-container > div.search-box-pc div.last-search div.header-papular-search h1 i,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-last-search h1 i,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-papular-search h1 i {
   font-size: 1.1rem;
   color: #909090;
   font-weight: 0;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search div.header-last-search > i, body > header section.user-bar-container > div.search-box-pc div.last-search div.header-papular-search > i, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-last-search > i, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-papular-search > i {
+body > header section.user-bar-container > div.search-box-pc div.last-search div.header-last-search > i,
+body > header section.user-bar-container > div.search-box-pc div.last-search div.header-papular-search > i,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-last-search > i,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-papular-search > i {
   font-size: 1.25rem;
   color: #909090;
   font-weight: 0;
   cursor: pointer;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search div.header-last-search > i:hover, body > header section.user-bar-container > div.search-box-pc div.last-search div.header-papular-search > i:hover, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-last-search > i:hover, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-papular-search > i:hover {
+body > header section.user-bar-container > div.search-box-pc div.last-search div.header-last-search > i:hover,
+body > header section.user-bar-container > div.search-box-pc div.last-search div.header-papular-search > i:hover,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-last-search > i:hover,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.header-papular-search > i:hover {
   color: #707070;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search div.scroll-bg, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.scroll-bg {
+body > header section.user-bar-container > div.search-box-pc div.last-search div.scroll-bg,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.scroll-bg {
   width: 100%;
   margin-top: 0.5rem;
   display: -webkit-box;
@@ -1087,10 +1145,12 @@ body > header section.user-bar-container > div.search-box-pc div.last-search div
       -ms-flex-align: center;
           align-items: center;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search div.scroll-bg div.container, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.scroll-bg div.container {
+body > header section.user-bar-container > div.search-box-pc div.last-search div.scroll-bg div.container,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.scroll-bg div.container {
   width: calc(100% - 3.5rem);
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search div.scroll-bg div.container ul, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.scroll-bg div.container ul {
+body > header section.user-bar-container > div.search-box-pc div.last-search div.scroll-bg div.container ul,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.scroll-bg div.container ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1108,7 +1168,8 @@ body > header section.user-bar-container > div.search-box-pc div.last-search div
   gap: 0.2rem;
   height: 3.5rem;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search div.scroll-bg div.container ul li, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.scroll-bg div.container ul li {
+body > header section.user-bar-container > div.search-box-pc div.last-search div.scroll-bg div.container ul li,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.scroll-bg div.container ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1129,14 +1190,17 @@ body > header section.user-bar-container > div.search-box-pc div.last-search div
   height: 2.3rem;
   cursor: pointer;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search div.scroll-bg div.container ul li:hover, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.scroll-bg div.container ul li:hover {
+body > header section.user-bar-container > div.search-box-pc div.last-search div.scroll-bg div.container ul li:hover,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.scroll-bg div.container ul li:hover {
   background-color: #ededed;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search div.scroll-bg div.container ul li p, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.scroll-bg div.container ul li p {
+body > header section.user-bar-container > div.search-box-pc div.last-search div.scroll-bg div.container ul li p,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.scroll-bg div.container ul li p {
   font-size: 1rem;
   color: #303030;
 }
-body > header section.user-bar-container > div.search-box-pc div.last-search div.scroll-bg div.container ul li i, body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.scroll-bg div.container ul li i {
+body > header section.user-bar-container > div.search-box-pc div.last-search div.scroll-bg div.container ul li i,
+body > header section.user-bar-container > div.search-box-pc div.papular-search2 div.scroll-bg div.container ul li i {
   font-size: 0.8rem;
   color: #303030;
   font-weight: 0;
@@ -1145,11 +1209,13 @@ body > header section.user-bar-container > div.search-box-pc div.last-search div
 body > header section.user-bar-container > div.search-box-pc div.papular-search2 {
   top: 1rem;
 }
-body > header section.user-bar-container > div.search-div div.containerDiv, body > header section.user-bar-container > div.search-box-pc div.containerDiv {
+body > header section.user-bar-container > div.search-div div.containerDiv,
+body > header section.user-bar-container > div.search-box-pc div.containerDiv {
   overflow-x: scroll;
   width: 100%;
 }
-body > header section.user-bar-container > div.search-div div.containerDiv ul.mainUl, body > header section.user-bar-container > div.search-box-pc div.containerDiv ul.mainUl {
+body > header section.user-bar-container > div.search-div div.containerDiv ul.mainUl,
+body > header section.user-bar-container > div.search-box-pc div.containerDiv ul.mainUl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1160,7 +1226,8 @@ body > header section.user-bar-container > div.search-div div.containerDiv ul.ma
   width: -moz-max-content;
   width: max-content;
 }
-body > header section.user-bar-container > div.search-div div.containerDiv ul.mainUl li.liResult, body > header section.user-bar-container > div.search-box-pc div.containerDiv ul.mainUl li.liResult {
+body > header section.user-bar-container > div.search-div div.containerDiv ul.mainUl li.liResult,
+body > header section.user-bar-container > div.search-box-pc div.containerDiv ul.mainUl li.liResult {
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1175,29 +1242,34 @@ body > header section.user-bar-container > div.search-div div.containerDiv ul.ma
   padding: 0.35rem 0.65rem;
   border: 0.05rem solid #dadada;
 }
-body > header section.user-bar-container > div.search-div div.containerDiv ul.mainUl li.liResult:hover, body > header section.user-bar-container > div.search-box-pc div.containerDiv ul.mainUl li.liResult:hover {
+body > header section.user-bar-container > div.search-div div.containerDiv ul.mainUl li.liResult:hover,
+body > header section.user-bar-container > div.search-box-pc div.containerDiv ul.mainUl li.liResult:hover {
   background-color: #f8f8f8;
 }
-body > header section.user-bar-container > div.search-div div.containerDiv ul.mainUl li.liResult img, body > header section.user-bar-container > div.search-box-pc div.containerDiv ul.mainUl li.liResult img {
+body > header section.user-bar-container > div.search-div div.containerDiv ul.mainUl li.liResult img,
+body > header section.user-bar-container > div.search-box-pc div.containerDiv ul.mainUl li.liResult img {
   width: 30%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 0.5rem;
 }
-body > header section.user-bar-container > div.search-div div.containerDiv ul.mainUl li.liResult div.name, body > header section.user-bar-container > div.search-box-pc div.containerDiv ul.mainUl li.liResult div.name {
+body > header section.user-bar-container > div.search-div div.containerDiv ul.mainUl li.liResult div.name,
+body > header section.user-bar-container > div.search-box-pc div.containerDiv ul.mainUl li.liResult div.name {
   font-size: 1rem;
   color: #707070;
   font-weight: 0;
   line-height: 1.5rem;
 }
-body > header section.user-bar-container > div.search-div div.containerDiv ul.mainUl p.emptyTxt, body > header section.user-bar-container > div.search-box-pc div.containerDiv ul.mainUl p.emptyTxt {
+body > header section.user-bar-container > div.search-div div.containerDiv ul.mainUl p.emptyTxt,
+body > header section.user-bar-container > div.search-box-pc div.containerDiv ul.mainUl p.emptyTxt {
   text-align: center;
   font-size: 1rem;
   color: #505050;
   font-weight: 0;
 }
-body > header section.user-bar-container > div.search-div ul.ulCat, body > header section.user-bar-container > div.search-box-pc ul.ulCat {
+body > header section.user-bar-container > div.search-div ul.ulCat,
+body > header section.user-bar-container > div.search-box-pc ul.ulCat {
   padding: 0.8rem;
   display: none;
   -webkit-box-orient: vertical;
@@ -1209,7 +1281,8 @@ body > header section.user-bar-container > div.search-div ul.ulCat, body > heade
           align-items: flex-start;
   width: calc(100% - 2rem);
 }
-body > header section.user-bar-container > div.search-div ul.ulCat li.itemCat, body > header section.user-bar-container > div.search-box-pc ul.ulCat li.itemCat {
+body > header section.user-bar-container > div.search-div ul.ulCat li.itemCat,
+body > header section.user-bar-container > div.search-box-pc ul.ulCat li.itemCat {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1224,11 +1297,13 @@ body > header section.user-bar-container > div.search-div ul.ulCat li.itemCat, b
   margin-right: 1.5rem;
   cursor: pointer;
 }
-body > header section.user-bar-container > div.search-div ul.ulCat li.itemCat:hover, body > header section.user-bar-container > div.search-box-pc ul.ulCat li.itemCat:hover {
+body > header section.user-bar-container > div.search-div ul.ulCat li.itemCat:hover,
+body > header section.user-bar-container > div.search-box-pc ul.ulCat li.itemCat:hover {
   background-color: #f8f8f8;
   border-radius: 1rem;
 }
-body > header section.user-bar-container > div.search-div ul.ulCat li.itemCat i, body > header section.user-bar-container > div.search-box-pc ul.ulCat li.itemCat i {
+body > header section.user-bar-container > div.search-div ul.ulCat li.itemCat i,
+body > header section.user-bar-container > div.search-box-pc ul.ulCat li.itemCat i {
   right: -1.5rem;
   top: 1.5rem;
   position: absolute;
@@ -1236,12 +1311,14 @@ body > header section.user-bar-container > div.search-div ul.ulCat li.itemCat i,
   color: #909090;
   font-weight: 0;
 }
-body > header section.user-bar-container > div.search-div ul.ulCat li.itemCat p.myTxt, body > header section.user-bar-container > div.search-box-pc ul.ulCat li.itemCat p.myTxt {
+body > header section.user-bar-container > div.search-div ul.ulCat li.itemCat p.myTxt,
+body > header section.user-bar-container > div.search-box-pc ul.ulCat li.itemCat p.myTxt {
   font-size: 1.25rem;
   color: #111111;
   font-weight: 400;
 }
-body > header section.user-bar-container > div.search-div ul.ulCat li.itemCat p.myCat, body > header section.user-bar-container > div.search-box-pc ul.ulCat li.itemCat p.myCat {
+body > header section.user-bar-container > div.search-div ul.ulCat li.itemCat p.myCat,
+body > header section.user-bar-container > div.search-box-pc ul.ulCat li.itemCat p.myCat {
   font-size: 1rem;
   color: #303030;
   font-weight: 400;
@@ -1285,23 +1362,27 @@ body > header section.user-bar-container div.profile-icon {
     background-color: #dadada;
   }
 }
-body > header section.user-bar-container div.profile-icon, body > header section.user-bar-container div.cart-icon div.just-icon {
+body > header section.user-bar-container div.profile-icon,
+body > header section.user-bar-container div.cart-icon div.just-icon {
   cursor: pointer;
   display: block;
   padding: 0.5rem 0.35rem !important;
   text-align: center;
 }
-body > header section.user-bar-container div.profile-icon i.fa-shopping-basket, body > header section.user-bar-container div.cart-icon div.just-icon i.fa-shopping-basket {
+body > header section.user-bar-container div.profile-icon i.fa-shopping-basket,
+body > header section.user-bar-container div.cart-icon div.just-icon i.fa-shopping-basket {
   font-size: 1.25rem;
   color: #505050;
   font-weight: 0;
 }
-body > header section.user-bar-container div.profile-icon i.fa-user, body > header section.user-bar-container div.cart-icon div.just-icon i.fa-user {
+body > header section.user-bar-container div.profile-icon i.fa-user,
+body > header section.user-bar-container div.cart-icon div.just-icon i.fa-user {
   font-size: 1.25rem;
   color: #505050;
   font-weight: 0;
 }
-body > header section.user-bar-container div.profile-icon i:last-child, body > header section.user-bar-container div.cart-icon div.just-icon i:last-child {
+body > header section.user-bar-container div.profile-icon i:last-child,
+body > header section.user-bar-container div.cart-icon div.just-icon i:last-child {
   font-size: 0.8rem;
   color: #505050;
   font-weight: 0;
@@ -1309,7 +1390,8 @@ body > header section.user-bar-container div.profile-icon i:last-child, body > h
   top: 0.5rem;
   right: 1.55rem;
 }
-body > header section.user-bar-container div.profile-icon div, body > header section.user-bar-container div.cart-icon div.just-icon div {
+body > header section.user-bar-container div.profile-icon div,
+body > header section.user-bar-container div.cart-icon div.just-icon div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1331,7 +1413,8 @@ body > header section.user-bar-container div.profile-icon div, body > header sec
   color: #EE384E;
   font-weight: 900;
 }
-body > header section.user-bar-container div.profile-icon.active i, body > header section.user-bar-container div.cart-icon div.just-icon.active i {
+body > header section.user-bar-container div.profile-icon.active i,
+body > header section.user-bar-container div.cart-icon div.just-icon.active i {
   color: #EE384E;
 }
 body > header section.user-bar-container div.cart-icon {
@@ -1528,7 +1611,8 @@ body > header section.user-bar-container div.cart-icon div.cart-box-items div.ca
       -ms-flex-align: center;
           align-items: center;
 }
-body > header section.user-bar-container div.cart-icon div.cart-box-items div.cart-box-info div.num-count-products output, body > header section.user-bar-container div.cart-icon div.cart-box-items div.cart-box-info div.num-count-products span {
+body > header section.user-bar-container div.cart-icon div.cart-box-items div.cart-box-info div.num-count-products output,
+body > header section.user-bar-container div.cart-icon div.cart-box-items div.cart-box-info div.num-count-products span {
   margin-right: 0.2rem;
   font-size: 0.9rem;
   font-weight: 600;
@@ -1546,7 +1630,8 @@ body > header section.user-bar-container div.cart-icon div.cart-box-items div.ca
           align-items: center;
   cursor: pointer;
 }
-body > header section.user-bar-container div.cart-icon div.cart-box-items div.cart-box-info div.show-cart-text i, body > header section.user-bar-container div.cart-icon div.cart-box-items div.cart-box-info div.show-cart-text p {
+body > header section.user-bar-container div.cart-icon div.cart-box-items div.cart-box-info div.show-cart-text i,
+body > header section.user-bar-container div.cart-icon div.cart-box-items div.cart-box-info div.show-cart-text p {
   font-size: 1.1rem;
   color: #15a2b1;
   font-weight: 0;
@@ -1893,7 +1978,8 @@ body > header section.user-bar-container div.cart-icon div.cart-box-items.off {
     opacity: 0;
   }
 }
-body > header section.user-bar-container div.onAll2, body > header section.user-bar-container div.onAll3 {
+body > header section.user-bar-container div.onAll2,
+body > header section.user-bar-container div.onAll3 {
   display: none;
   z-index: 999;
   opacity: 0.1;
@@ -2154,7 +2240,8 @@ body > header div.addAddressForm header {
   border-bottom: 1px solid #dadada;
   max-width: 1000px;
 }
-body > header div.addAddressForm header p, body > header div.addAddressForm header i {
+body > header div.addAddressForm header p,
+body > header div.addAddressForm header i {
   font-size: 1.1rem;
   color: #202020;
   font-weight: 0;
@@ -2215,7 +2302,8 @@ body > header div.addAddressForm main > div span.error {
   font-weight: 0;
   margin-right: 0.5rem;
 }
-body > header div.addAddressForm main > div input, body > header div.addAddressForm main > div textarea {
+body > header div.addAddressForm main > div input,
+body > header div.addAddressForm main > div textarea {
   background-color: #ededed;
   border-radius: 0.5rem;
 }
@@ -2237,14 +2325,17 @@ body > header div.addAddressForm main div.cityContainer {
           align-items: center;
   gap: 0.8rem;
 }
-body > header div.addAddressForm main div.cityContainer div.SelectState, body > header div.addAddressForm main div.cityContainer div.SelectCity {
+body > header div.addAddressForm main div.cityContainer div.SelectState,
+body > header div.addAddressForm main div.cityContainer div.SelectCity {
   width: 100%;
 }
-body > header div.addAddressForm main div.cityContainer div.SelectState input, body > header div.addAddressForm main div.cityContainer div.SelectCity input {
+body > header div.addAddressForm main div.cityContainer div.SelectState input,
+body > header div.addAddressForm main div.cityContainer div.SelectCity input {
   width: 100%;
   padding: 0.65rem 1rem;
 }
-body > header div.addAddressForm main div.cityContainer div.SelectState i, body > header div.addAddressForm main div.cityContainer div.SelectCity i {
+body > header div.addAddressForm main div.cityContainer div.SelectState i,
+body > header div.addAddressForm main div.cityContainer div.SelectCity i {
   position: absolute;
   top: 2.7rem;
   left: 0;
@@ -2323,7 +2414,9 @@ body > header div.addAddressForm main div.lastSecAdd div.codePost input {
             flex-direction: column;
   }
 }
-body > header div.addAddressForm main .statesUl, body > header div.addAddressForm main .cityUl, body > header div.addAddressForm main .mahalUl {
+body > header div.addAddressForm main .statesUl,
+body > header div.addAddressForm main .cityUl,
+body > header div.addAddressForm main .mahalUl {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -2345,7 +2438,9 @@ body > header div.addAddressForm main .statesUl, body > header div.addAddressFor
   z-index: 2;
   overflow-y: scroll;
 }
-body > header div.addAddressForm main .statesUl li, body > header div.addAddressForm main .cityUl li, body > header div.addAddressForm main .mahalUl li {
+body > header div.addAddressForm main .statesUl li,
+body > header div.addAddressForm main .cityUl li,
+body > header div.addAddressForm main .mahalUl li {
   cursor: pointer;
   width: 100%;
   padding: 0.5rem;
@@ -2377,7 +2472,8 @@ body > header div.addAddressForm footer button.active {
 body > header div.addAddressForm footer button.active:hover {
   background-color: #d22f42;
 }
-body > header div.onAll4, body > header div.onAll5 {
+body > header div.onAll4,
+body > header div.onAll5 {
   display: none;
   z-index: 999;
   width: 100vw;
@@ -2819,7 +2915,8 @@ body > header section.slider div.images-slider div.buttons-slide {
     height: 4rem;
   }
 }
-body > header section.slider div.images-slider div.buttons-slide div.next-slide, body > header section.slider div.images-slider div.buttons-slide div.prev-slide {
+body > header section.slider div.images-slider div.buttons-slide div.next-slide,
+body > header section.slider div.images-slider div.buttons-slide div.prev-slide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2833,21 +2930,23 @@ body > header section.slider div.images-slider div.buttons-slide div.next-slide,
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  cursor: pointer;
 }
 @media only screen and (min-width: 768px) {
-  body > header section.slider div.images-slider div.buttons-slide div.next-slide, body > header section.slider div.images-slider div.buttons-slide div.prev-slide {
+  body > header section.slider div.images-slider div.buttons-slide div.next-slide,
+  body > header section.slider div.images-slider div.buttons-slide div.prev-slide {
     height: 3rem;
     width: 3rem;
   }
 }
 @media only screen and (min-width: 1280px) {
-  body > header section.slider div.images-slider div.buttons-slide div.next-slide, body > header section.slider div.images-slider div.buttons-slide div.prev-slide {
+  body > header section.slider div.images-slider div.buttons-slide div.next-slide,
+  body > header section.slider div.images-slider div.buttons-slide div.prev-slide {
     height: 3.5rem;
     width: 3.5rem;
   }
 }
-body > header section.slider div.images-slider div.buttons-slide div.next-slide:hover, body > header section.slider div.images-slider div.buttons-slide div.prev-slide:hover {
+body > header section.slider div.images-slider div.buttons-slide div.next-slide:hover,
+body > header section.slider div.images-slider div.buttons-slide div.prev-slide:hover {
   opacity: 0.8;
 }
 body > header section.slider div.images-slider img {
@@ -3515,7 +3614,8 @@ body > main div.adds div.gridAdds div.add:hover img {
   -webkit-filter: brightness(1);
           filter: brightness(1);
 }
-body > main div.newst, body > main div.cellest {
+body > main div.newst,
+body > main div.cellest {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3532,7 +3632,8 @@ body > main div.newst, body > main div.cellest {
   width: 100%;
   padding: 1rem 0.8rem;
 }
-body > main div.newst header, body > main div.cellest header {
+body > main div.newst header,
+body > main div.cellest header {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3552,7 +3653,8 @@ body > main div.newst header, body > main div.cellest header {
           justify-content: space-between;
   padding: 0.5rem 1rem;
 }
-body > main div.newst header div.title, body > main div.cellest header div.title {
+body > main div.newst header div.title,
+body > main div.cellest header div.title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3567,28 +3669,33 @@ body > main div.newst header div.title, body > main div.cellest header div.title
       -ms-flex-direction: row;
           flex-direction: row;
 }
-body > main div.newst header div.title i, body > main div.cellest header div.title i {
+body > main div.newst header div.title i,
+body > main div.cellest header div.title i {
   margin-left: 0.5rem;
   font-size: 1.25rem;
   color: #ea9f15;
   font-weight: 0;
 }
-body > main div.newst header div.title h1, body > main div.cellest header div.title h1 {
+body > main div.newst header div.title h1,
+body > main div.cellest header div.title h1 {
   font-size: 1.5rem;
   color: #111111;
   font-weight: 100;
 }
-body > main div.newst header div.showAll, body > main div.cellest header div.showAll {
+body > main div.newst header div.showAll,
+body > main div.cellest header div.showAll {
   margin-left: 0.8rem;
   font-size: 1.1rem;
   color: #19bfd3;
   font-weight: 0;
 }
-body > main div.newst header div.showAll:hover, body > main div.cellest header div.showAll:hover {
+body > main div.newst header div.showAll:hover,
+body > main div.cellest header div.showAll:hover {
   color: #15a2b1;
   cursor: pointer;
 }
-body > main div.newst main, body > main div.cellest main {
+body > main div.newst main,
+body > main div.cellest main {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3600,7 +3707,8 @@ body > main div.newst main, body > main div.cellest main {
       -ms-flex-align: center;
           align-items: center;
 }
-body > main div.newst main div.gridDis, body > main div.cellest main div.gridDis {
+body > main div.newst main div.gridDis,
+body > main div.cellest main div.gridDis {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(4, 16.5rem);
@@ -3609,7 +3717,8 @@ body > main div.newst main div.gridDis, body > main div.cellest main div.gridDis
   overflow-x: auto;
   padding: 1rem;
 }
-body > main div.newst main div.gridDis div.newProduct, body > main div.cellest main div.gridDis div.newProduct {
+body > main div.newst main div.gridDis div.newProduct,
+body > main div.cellest main div.gridDis div.newProduct {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3622,16 +3731,19 @@ body > main div.newst main div.gridDis div.newProduct, body > main div.cellest m
   padding-left: 2rem;
   border-bottom: 1px solid #ededed;
 }
-body > main div.newst main div.gridDis div.newProduct:hover, body > main div.cellest main div.gridDis div.newProduct:hover {
+body > main div.newst main div.gridDis div.newProduct:hover,
+body > main div.cellest main div.gridDis div.newProduct:hover {
   cursor: pointer;
   background-color: #ededed;
   border-radius: 1rem;
 }
-body > main div.newst main div.gridDis div.newProduct div.rightImg, body > main div.cellest main div.gridDis div.newProduct div.rightImg {
+body > main div.newst main div.gridDis div.newProduct div.rightImg,
+body > main div.cellest main div.gridDis div.newProduct div.rightImg {
   width: 42%;
   height: 100%;
 }
-body > main div.newst main div.gridDis div.newProduct div.rightImg img, body > main div.cellest main div.gridDis div.newProduct div.rightImg img {
+body > main div.newst main div.gridDis div.newProduct div.rightImg img,
+body > main div.cellest main div.gridDis div.newProduct div.rightImg img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -3639,7 +3751,8 @@ body > main div.newst main div.gridDis div.newProduct div.rightImg img, body > m
   padding: 0.8rem;
   border-radius: 1.25rem;
 }
-body > main div.newst main div.gridDis div.newProduct div.leftName, body > main div.cellest main div.gridDis div.newProduct div.leftName {
+body > main div.newst main div.gridDis div.newProduct div.leftName,
+body > main div.cellest main div.gridDis div.newProduct div.leftName {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3652,38 +3765,46 @@ body > main div.newst main div.gridDis div.newProduct div.leftName, body > main 
   width: 58%;
   height: 100%;
 }
-body > main div.newst main div.gridDis div.newProduct div.leftName p, body > main div.cellest main div.gridDis div.newProduct div.leftName p {
+body > main div.newst main div.gridDis div.newProduct div.leftName p,
+body > main div.cellest main div.gridDis div.newProduct div.leftName p {
   font-size: 1rem;
   color: #202020;
   font-weight: 0;
   line-height: 1.5rem;
 }
-body > main div.newst main div.gridDis div.newProduct:hover *, body > main div.cellest main div.gridDis div.newProduct:hover * {
+body > main div.newst main div.gridDis div.newProduct:hover *,
+body > main div.cellest main div.gridDis div.newProduct:hover * {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-body > main div.newst main div.gridDis div.newProduct:hover img, body > main div.cellest main div.gridDis div.newProduct:hover img {
+body > main div.newst main div.gridDis div.newProduct:hover img,
+body > main div.cellest main div.gridDis div.newProduct:hover img {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
-body > main div.newst main div.gridDis div.newProduct:hover div.leftName p, body > main div.cellest main div.gridDis div.newProduct:hover div.leftName p {
+body > main div.newst main div.gridDis div.newProduct:hover div.leftName p,
+body > main div.cellest main div.gridDis div.newProduct:hover div.leftName p {
   -webkit-transform: translateX(-0.35rem);
           transform: translateX(-0.35rem);
 }
 @media only screen and (min-width: 1000px) {
-  body > main div.newst main div.gridDis, body > main div.cellest main div.gridDis {
+  body > main div.newst main div.gridDis,
+  body > main div.cellest main div.gridDis {
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(3, 1fr);
   }
-  body > main div.newst main div.gridDis div.newProduct, body > main div.cellest main div.gridDis div.newProduct {
+  body > main div.newst main div.gridDis div.newProduct,
+  body > main div.cellest main div.gridDis div.newProduct {
     padding-bottom: 1rem;
   }
-  body > main div.newst main div.gridDis div.newProduct div.rightImg, body > main div.cellest main div.gridDis div.newProduct div.rightImg {
+  body > main div.newst main div.gridDis div.newProduct div.rightImg,
+  body > main div.cellest main div.gridDis div.newProduct div.rightImg {
     width: 6rem !important;
   }
 }
 @media only screen and (min-width: 1000px) {
-  body > main div.newst, body > main div.cellest {
+  body > main div.newst,
+  body > main div.cellest {
     width: calc(100% - 4rem);
     margin: 1rem 2rem;
     border-radius: 1.25rem;
@@ -4199,7 +4320,8 @@ body > main div.disOffers main div.itemWithOff:hover img {
   body > main div.disOffers main div.itemWithOff:nth-child(odd) {
     border-left: 1px solid #ededed;
   }
-  body > main div.disOffers main div.itemWithOff:nth-child(11), body > main div.disOffers main div.itemWithOff:nth-child(12) {
+  body > main div.disOffers main div.itemWithOff:nth-child(11),
+  body > main div.disOffers main div.itemWithOff:nth-child(12) {
     border-bottom: none !important;
   }
   body > main div.disOffers main div.pic {
@@ -4219,10 +4341,14 @@ body > main div.disOffers main div.itemWithOff:hover img {
     grid-template-columns: repeat(3, 33.333%);
     grid-template-rows: repeat(4, 8rem);
   }
-  body > main div.disOffers main div.itemWithOff:nth-child(2), body > main div.disOffers main div.itemWithOff:nth-child(10), body > main div.disOffers main div.itemWithOff:nth-child(4), body > main div.disOffers main div.itemWithOff:nth-child(8) {
+  body > main div.disOffers main div.itemWithOff:nth-child(2),
+  body > main div.disOffers main div.itemWithOff:nth-child(10),
+  body > main div.disOffers main div.itemWithOff:nth-child(4),
+  body > main div.disOffers main div.itemWithOff:nth-child(8) {
     border-left: 1px solid #ededed;
   }
-  body > main div.disOffers main div.itemWithOff:nth-child(3), body > main div.disOffers main div.itemWithOff:nth-child(9) {
+  body > main div.disOffers main div.itemWithOff:nth-child(3),
+  body > main div.disOffers main div.itemWithOff:nth-child(9) {
     border-left: none;
   }
   body > main div.disOffers main div.itemWithOff:nth-child(10) {
@@ -4259,13 +4385,19 @@ body > main div.disOffers main div.itemWithOff:hover img {
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(3, 9.5rem);
   }
-  body > main div.disOffers main div.itemWithOff:nth-child(2), body > main div.disOffers main div.itemWithOff:nth-child(3), body > main div.disOffers main div.itemWithOff:nth-child(9), body > main div.disOffers main div.itemWithOff:nth-child(6), body > main div.disOffers main div.itemWithOff:nth-child(10) {
+  body > main div.disOffers main div.itemWithOff:nth-child(2),
+  body > main div.disOffers main div.itemWithOff:nth-child(3),
+  body > main div.disOffers main div.itemWithOff:nth-child(9),
+  body > main div.disOffers main div.itemWithOff:nth-child(6),
+  body > main div.disOffers main div.itemWithOff:nth-child(10) {
     border-left: 1px solid #ededed;
   }
-  body > main div.disOffers main div.itemWithOff:nth-child(4), body > main div.disOffers main div.itemWithOff:nth-child(8) {
+  body > main div.disOffers main div.itemWithOff:nth-child(4),
+  body > main div.disOffers main div.itemWithOff:nth-child(8) {
     border-left: none;
   }
-  body > main div.disOffers main div.itemWithOff:nth-child(10), body > main div.disOffers main div.itemWithOff:nth-child(9) {
+  body > main div.disOffers main div.itemWithOff:nth-child(10),
+  body > main div.disOffers main div.itemWithOff:nth-child(9) {
     border-bottom: none;
   }
   body > main div.disOffers main div.nameItem {
@@ -4489,7 +4621,8 @@ body > main div.questionForm header {
           flex-direction: row;
   gap: 0.5rem;
 }
-body > main div.questionForm header i, body > main div.questionForm header h1 {
+body > main div.questionForm header i,
+body > main div.questionForm header h1 {
   font-size: 1.25rem;
   color: #941b80;
   font-weight: 0;
@@ -4525,7 +4658,8 @@ body > main div.questionForm main form label {
   display: block;
   margin-bottom: 0.35rem;
 }
-body > main div.questionForm main form input, body > main div.questionForm main form textarea {
+body > main div.questionForm main form input,
+body > main div.questionForm main form textarea {
   width: 100%;
   border: 1px solid #dadada;
   border-radius: 0.5rem;
