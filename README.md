@@ -7,7 +7,7 @@
 <a href="https://uupload.ir/view/screenshot_from_2025-09-21_12-02-05_k2h0.png" target="_blank"><img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-02-05_k2h0_thumb.png" border="0" alt="آپلود عکس" /></a>
 <a href="https://uupload.ir/view/screenshot_from_2025-09-21_12-01-56_eyzf.png" target="_blank"><img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-56_eyzf_thumb.png" border="0" alt="آپلود عکس" /></a>
 <a href="https://uupload.ir/view/screenshot_from_2025-09-21_12-01-43_n84n.png" target="_blank"><img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-43_n84n_thumb.png" border="0" alt="آپلود عکس" /></a>
-<a href="https://uupload.ir/view/screenshot_from_2025-09-21_12-01-28_diyn.png" target="_blank"><img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-28_diyn_thumb.png" border="0" alt="آپلود عکس" /></a>
+<a href="https://uupload.ir/" target="_blank"><img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-28_diyn.png" border="0" alt="آپلود عکس" /></a>
 <a href="https://uupload.ir/view/screenshot_from_2025-09-21_12-01-20_jo2x.png" target="_blank"><img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-20_jo2x_thumb.png" border="0" alt="آپلود عکس" /></a>
 <a href="https://uupload.ir/view/screenshot_from_2025-09-21_12-01-07_zw6.png" target="_blank"><img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-07_zw6_thumb.png" border="0" alt="آپلود عکس" /></a>
 
