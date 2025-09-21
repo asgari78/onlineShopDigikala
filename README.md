@@ -31,8 +31,7 @@ Built with ❤️ by [MohammadJavad Asgari](https://github.com/asgari78) | Jan 2
 
 ## Demo
 
-لینک OnlineDemo :
-https://online-shop-digikala-llwj730no-mdjd-asgaris-projects.vercel.app/
+- لینک(OnlineDemo) : (https://online-shop-digikala-llwj730no-mdjd-asgaris-projects.vercel.app)
 
 
 
