@@ -37,8 +37,3 @@ Built with ❤️ by [MohammadJavad Asgari](https://github.com/asgari78) | Jan 2
 
 <img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-07_zw6.png"/>
 <img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-03-26_xlx2.png"/>
-<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-20_jo2x.png"/>
-<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-28_diyn.png"/>
-<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-02-05_6iyb.png"/>
-<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-56_911g.png"/>
-<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-43_q7x0.png"/>
