@@ -3,19 +3,13 @@
 یک پلتفرم e-commerce کاملاً responsive، الهام‌گرفته از دیجی‌کالا. تمرکز روی UI دینامیک و interactive با JavaScript خام (بدون backend). ویژگی‌ها: لیست محصولات با pagination، سبد خرید کاربردی، و طراحی کاربرپسند.
 
 ## Demo
-<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-07_zw6.png" border="0" alt="آپلود عکس" />
-<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-20_jo2x.png" border="0" alt="آپلود عکس" />
-<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-28_diyn.png" border="0" alt="آپلود عکس" />
-<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-43_n84n_thumb.png" border="0" alt="آپلود عکس" />
-<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-56_eyzf_thumb.png" border="0" alt="آپلود عکس" />
-<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-02-05_k2h0_thumb.png" border="0" alt="آپلود عکس" />
-<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-03-26_chul_thumb.png" border="0" alt="آپلود عکس" />
-
-
-
-
-
-
+<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-07_zw6.png"/>
+<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-03-26_xlx2.png"/>
+<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-20_jo2x.png"/>
+<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-28_diyn.png"/>
+<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-02-05_6iyb.png"/>
+<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-56_911g.png"/>
+<img src="https://s6.uupload.ir/files/screenshot_from_2025-09-21_12-01-43_q7x0.png"/>
 
 ## Features
 - لیست محصولات با pagination (JavaScript-based).
